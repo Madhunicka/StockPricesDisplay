@@ -1,5 +1,4 @@
-![image](https://github.com/Madhunicka/StockPricesDisplay/assets/77634975/5a23e389-2283-413d-9783-921c3ffa9df1)
-
+![image](https://github.com/Madhunicka/StockPricesDisplay/assets/77634975/318d0c8a-e9bf-48a3-bcf2-e92e193c474d)
 
 # Getting Started with Create React App
 

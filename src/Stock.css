@@ -1,0 +1,63 @@
+.search-container {
+    position: relative;
+    display: flex;
+    gap: 40px;
+    top: 45px;
+    justify-content: flex-end; 
+    margin-right: 90px;
+}
+
+.search-container input[type="text"] {
+    width: 200px;
+    height: 20px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    font-size: 16px;
+    border: 1px solid rgb(196, 196, 197);
+    position: relative;
+}
+
+.suggestions-list {
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px; 
+    overflow-y: auto;
+    border: 1px solid #ddd;
+    width: 220px;
+    border-top: none; 
+    top: calc(100% + 5px); 
+    
+}
+
+.suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; 
+}
+
+.suggestions-list li:hover {
+    background-color: #f9f9f9;
+}
+
+.date-pickers {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.date-picker1,
+.date-picker2 {
+    width: 200px;
+    height: 25px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid rgb(196, 196, 197);
+}
